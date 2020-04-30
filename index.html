@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>COVID-19 | Predicted interactome</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+		<div class="sidebar-heading">COVID-19 PPI dataset</div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="nav-link list-group-item list-group-item-action bg-light">Home</a>
+        <a href="#description" class="nav-link list-group-item list-group-item-action bg-light">Description</a>
+				<a href="#publication" class="nav-link list-group-item list-group-item-action bg-light">Publications</a>
+        <a href="#contributors" class="nav-link list-group-item list-group-item-action bg-light">Contributors</a>
+        <a href="#citation" class="nav-link list-group-item list-group-item-action bg-light">Citation</a>
+        <a href="#download" class="nav-link list-group-item list-group-item-action bg-light">Download</a>
+				<br><br><br><center><img src="./imgs/cu-logo.png" alt="Carleton Logo" width="100px"></center>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+				<div id="home" class="tab">
+					 <h1>COVID-19: predicted interactome</h1><br>
+						
+					 <p> 
+					 The <a href="https://en.wikipedia.org/wiki/2019%E2%80%9320_coronavirus_pandemic" target="_blank">2019-2020 COVID-19 pandemic</a> 
+					 resulting from infection with the SARS-CoV-2 virus has claimed hundreds of thousands of lives. There is currently no effective
+					 treatment for individuals afflicted, and as such, there is a pressing need for therapies that can reduce the burden caused by
+					 infections with the virus.
+					 </p>
+					<p> 
+						While multiple groups are aiming to tackle this challenge through vaccine development, we believe that peptide therapeutics
+						targeting proteins of the SARS-CoV-2 proteome hold great promise. Indeed, peptides have the potential to specifically disrupt
+						protein-protein interactions (PPIs) involving SARS-CoV-2 proteins and human proteins. One of the most easily targetable interactions is that of hACE2 and
+						Spike. Other interactions may constitute targets of high therapeutic value, and as such, we sought to predict the entire
+						SARS-CoV-2-human interactome to identify novel targetable interactions. We ran
+						<a href="https://www.nature.com/articles/s41598-019-56895-w" target="_blank">PIPE4</a>
+						and <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1871-x" target="_blank">SPRINT</a> on state-of-the-art computer clusters
+						to predict the full interactome. This high-quality dataset is now freely available for all to use.
+					 </p>
+
+					 <p>
+						In addition to predicting the interactome, we leveraged <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-225" target="_blank">PIPE-Sites</a>
+						to hone in on regions that are likely to mediate the interactions.
+					 </p>
+						<center>
+						 <img src="./imgs/graphical-abstract.png" style="width:80%;"/>
+					 </center>
+					 <p>
+						Our hybrid workflow leverages high-performance computing with wet lab experiments to identify and validate novel interactions,
+						in order to design therapeutic peptides that disrupt interactions between the SARS-CoV-2 virus and human proteins.
+					 </p>
+
+					 
+
+				</div>
+
+		<div id="description" class="tab">
+			<h1>Description of the dataset</h1><br>
+
+			<img src="./imgs/predicted-interactome.png" width="80%"/>
+					 				 
+				</div>
+
+				<div id="publication" class="tab">
+					<h1>Publications</h1>
+					<p>
+					You may consult our pre-print on <a href="https://www.biorxiv.org/content/10.1101/2020.03.29.014381v1">BioRxiv</a> for additional details on the dataset and for insight.
+				 </p>
+				 <center>
+					 <embed src="https://www.biorxiv.org/content/10.1101/2020.03.29.014381v1.full.pdf" width="800px" height="900px" />
+				 </center>
+				</div>
+
+				<div id="contributors" class="tab">
+					<h1>Project contributors</h1><br>
+                   <br>
+		   <h4><a href="https://www.linkedin.com/in/dickkevin/">Kevin Dick</a></h4><br>
+		   <p>
+		   Kevin Dick is currently pursuing a PhD in biomedical engineering specializing in data science and bioinformatics as part of the  Carleton University Biomedical Informatics Colaboratory (cuBIC) in Ottawa, Canada.  His research interests include data science, machine learning, high performance computing, secodary use of autonomous vehicle data, and scientometrics. 
+		   </p><br><br>
+		   
+		   <h4><a href="http://www.charih.ca/">Francois Charih</a></h4><br>
+                   <p>
+                   François Charih is currently a PhD student in Electrical and Computer Engineering in the Carleton University Biomedical Informatics Colaboratory (cuBIC). His research interests include bioinformatics, applied machine learning and software development for applications in personalized medicine. Other areas of expertise include cloud computing, web development and science outreach.
+                   </p><br><br>
+
+		   <h4><a href="https://carleton.ca/biology/people/kyle-biggar/">Kyle K. Biggar</a></h4><br>
+                   <p>
+                  Dr. Biggar is an Assistant professor in the Department Biology and Institute of Biochemistry at Carleton University. His research focuses on the discovery and characterization of novel peptide inhibitors of protein interaction and funciton. Current research projects include the prediction and functional characterization of peptide inhibitors as novel cancer therapeutics, the use of systematic peptide arrays for the study of how proteins interact with each other, including how enzymes recognize substrates, and how reversible post-translational lysine methylation of histone and non-histone proteins regulates protein-protein interactions and function. Dr. Biggar is also the director of the Carleton Functional Proteomics Facility.
+                   </p><br><br>
+
+		   <h4><a href="http://www.sce.carleton.ca/faculty/green/green.php">James R. Green</a></h4><br>
+                   <p>
+                 	Dr. Green is a full professor in the Department of Systems and Computer Engineering at Carleton University. His research focuses on the application of machine learning to challenges in biomedical informatics, particularly in the presence of class imbalance. Current research projects include the prediction of protein structure, function, and interaction; the use of supervised and semi-supervised machine learning for the identification of microRNA in unique species; unobtrusive and non-contact neonatal patient monitoring; developing ML for audiology; applying computer vision to autonomous vehicle imagery; and the acceleration of scientific computing using parallel computing. 
+		   </p>
+
+                   </p>
+		   <br><br><br><br>
+				</div>
+
+				<div id="citation" class="tab">
+				<h1>Citation</h1><br>
+		    <p>If you use our dataset in your work, please cite the following references:<br>
+				<div style="background:#eeeeee"><font size="2"><pre>
+@data{SP2/JZ77XA_2020,
+	author = {Dick, Kevin and Biggar, Kyle K. and Green, James R.},
+	publisher = {Scholars Portal Dataverse},
+	title = "{Comprehensive Prediction of the SARS-CoV-2 vs. Human Interactome using PIPE4, SPRINT, and PIPE-Sites}",
+	UNF = {UNF:6:LaU8vpF6y1UavvDQrlXzpg==},
+	year = {2020},
+	version = {V1},
+	doi = {10.5683/SP2/JZ77XA},
+	url = {https://doi.org/10.5683/SP2/JZ77XA}
+}
+				</pre></font></div>
+	   	    </p>
+				</div>
+
+				<div id="download" class="tab">
+					<h1>Download the PPI dataset</h1><br>
+					<p>
+					Our dataset consists of the following:
+					<ul>
+						<li>The SARS-CoV-2-human interactome predicted with PIPE4 (one .tab file per SARS-CoV-2 protein)</li>
+						<li>The SARS-CoV-2-human interactome predicted with SPRINT (one .tab file per SARS-CoV-2 protein)</li>
+						<li>Matrices (.mat files) describing the contribution score of amino acids to the interactions</li>
+						<li>Heatmaps (.pdf files) illustrating the interacting regions of interacting proteins</li>
+					</ul>
+					</p>
+
+					<p style="text-align:center;">
+					Our data is made available to researchers around the world through the Scholars Portal Dataverse.
+					</p>
+
+
+					<center>
+						<a href="https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP2/JZ77XA" target="_blank">
+							<img src="./imgs/logo.png" />
+						</a>
+					</center>
+		   
+				</div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+		$(document).ready(function() {
+			$(".tab").css("display", "none");
+			$("#home").css("display", "block");
+		});
+
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+
+		$(".nav-link").click(function(event) {
+			$(".tab").css("display", "none");
+			var clicked = event.target.href.split("#")[1] || "home";
+			$("#" + clicked).css("display", "block");
+		});
+
+  </script>
+
+</body>
+
+</html>
+
